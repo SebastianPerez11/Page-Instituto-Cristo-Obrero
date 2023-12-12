@@ -156,18 +156,18 @@ body {
   --black: #000;
 }
 
-
+/* Aside */
 
 .aside-redes {
   position: fixed;
-  right: 0;
+  left: 0;
   top: 40%;
 }
 
 .container-redes {
   display: flex;
   flex-direction: column;
-  margin-right: 1rem;
+  margin-left: 1rem;
   gap: 1.5rem;
 }
 
@@ -339,6 +339,29 @@ body {
     height: calc(100vh - 8.6rem);
   }
 }
+
+@media (max-width:780px) {
+  .hero-section {
+    height: calc(100vh - 8.6rem);
+  }
+
+  .title-hero-h1 {
+    font-size: 4.8rem;
+  }
+
+  .p-hero {
+    font-size: 2.40rem;
+  }
+
+  .span-hero {
+    font-size: 2.4rem;
+  }
+
+  .btn-ca {
+    padding: 1rem 3.4rem;
+  }
+}
+
 
 /* Section Inscription */
 
