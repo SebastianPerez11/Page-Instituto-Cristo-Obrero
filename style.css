@@ -275,14 +275,14 @@ body {
   width: 36rem;
   z-index: 100;
   min-width: 100%;
-  padding: 2.8rem 1.2rem;
+  padding: 2.3rem 1.2rem;
   grid-template-columns: max-content max-content;
   grid-template-areas: "logo icono";
   align-content: center;
   justify-content: space-between;
   position: sticky;
   top: 0;
-  background-color: var(--blue-tones-100);
+  background-color: var(--blue-950);
   box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
   -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
@@ -307,17 +307,18 @@ body {
   width: 4rem;
   height: 4rem;
   flex-shrink: 0;
+  object-fit: cover;
 }
 
 .nav-hamburger-icon {
-  width: 3.2rem;
-  height: 3.2rem;
+  width: 100%;
+  height: 100%;
   flex-shrink: 0;
 }
 
 .nav-close-icon {
-  width: 3.2rem;
-  height: 3.2rem;
+ width: 100%;
+ height: 100%;
 }
 
 .body-hidden{
@@ -532,7 +533,7 @@ body {
 
 @media (max-width:780px) {
   .hero-section {
-    padding: 14.4rem 1rem;
+    padding: 14.4rem 1.2rem;
   }
 
   .title-hero-h1 {
@@ -692,13 +693,31 @@ body {
   color: var(--yellow-600);
 }
 
+@media (max-width: 1385px) {
+  .inscription-section {
+    width: 100%;
+    height: 100%;
+    max-height: unset;
+  }
+
+  .inscription-container-cards {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+}
+
 @media (max-width: 780px) {
 
   .inscription-section {
     width: 100%;
     height: 100%;
     max-height: unset;
-    padding: 7.4rem 1rem;
+    padding: 7.4rem 1.2rem;
   }
 
   .inscription-container {
@@ -852,7 +871,7 @@ body {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 910px) {
   .call-section {
     display: flex;
     align-items: center;
@@ -860,7 +879,7 @@ body {
     width: 100%;
     height: 100%;
     max-height: unset;
-    padding: 7.4rem 1rem;
+    padding: 7.4rem 1.2rem;
   }
 
   .call-container-content {
@@ -1029,7 +1048,7 @@ body {
     width: 100%;
     height: 100%;
     max-height: unset;
-    padding: 7.4rem 1rem;
+    padding: 7.4rem 1.2rem;
   }
 
   .extra-card {
@@ -1113,8 +1132,15 @@ body {
 
 @media (max-width:780px){
 
-  .footer{
-    display: none;
+  .footer {
+    padding: 3.5rem 1.2rem;
   }
-
+  
+  .footer-container {
+    max-width: 144rem;
+    display: flex;
+    gap: 8rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
