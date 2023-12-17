@@ -11,21 +11,22 @@
 <body>
 
   <header class="header">
-    <a href="#main-section" id="logo-mision-mobile" class="contain-logo-ms"><img class="logo-ms" src="assets/img/logo-Ico.png"
-        alt="Logo Instituto Cristo Obrero" /></a>
+    <a href="#main-section" id="logo-mision-mobile" class="contain-logo-ms"><img class="logo-ms"
+        src="assets/img/logo-Ico.png" alt="Logo Instituto Cristo Obrero" /></a>
     <picture class="container-icon-menu">
       <img class="nav-hamburger-icon" src="assets/icons/icon-menu.svg" alt="Icono menu" />
     </picture>
     <picture class="container-icon-menu">
-      <img class="nav-close-icon icons-menu"  src="assets/icons/ic-close-menu.svg" alt="Icono cierre" /></picture>
+      <img class="nav-close-icon icons-menu" src="assets/icons/ic-close-menu.svg" alt="Icono cierre" />
+    </picture>
 
     <!-- Menu desplegable -->
 
     <nav class="nav-bar-menu">
 
       <div class="contain-logo-ms-menu">
-        <a href="#main-section" class="contain-logo-a-menu nav-link-menu"><img class="logo-ms-menu" src="assets/icons/logo-misión-salta.svg"
-            alt="Logo misión salta" /></a>
+        <a href="#main-section" class="contain-logo-a-menu nav-link-menu"><img class="logo-ms-menu"
+            src="assets/icons/logo-misión-salta.svg" alt="Logo misión salta" /></a>
       </div>
 
       <div class="nav-main">
@@ -34,7 +35,8 @@
         </div>
         <ul class="nav-links">
           <li class="nav-link"><a class="nav-link-menu" href="#que-es" class="text-body">¿Qué es?</a></li>
-          <li class="nav-link"><a class="nav-link-menu" href="#quienes-participan" class="text-body">¿Quiénes participan?</a></li>
+          <li class="nav-link"><a class="nav-link-menu" href="#quienes-participan" class="text-body">¿Quiénes
+              participan?</a></li>
           <li class="nav-link"><a class="nav-link-menu" href="#como-impacta" class="text-body">¿Cómo impacta?</a></li>
           <li class="nav-link"><a class="nav-link-menu" href="#como-ayudar" class="text-body">¿Cómo ayudar?</a></li>
         </ul>
@@ -49,13 +51,63 @@
 
   <header class="nav-bar-class">
     <nav class="nav-contain">
-      <ul class="nav-bar-class-links">
-        <li class="nav-bar-class-link"><a href="#" title="Inicio">Inicio</a></li>
-        <li class="nav-bar-class-link"><a href="#" title="Niveles Educativos">Niveles Educativos</a></li>
-        <li class="nav-bar-class-link"><a href="#" title="Aranceles">Aranceles</a></li>
-        <li class="nav-bar-class-link"><a href="#" title="Institucional">Institucional</a></li>
-        <li class="nav-bar-class-link"><a href="#" title="Noticias">Noticias</a></li>
-        <li class="nav-bar-class-link"><a href="#" title="Contacto">Contacto</a></li>
+      <ul class="nav-bar-class-links menu__links">
+        <li class="nav-bar-class-link menu__item">
+          <a class="menu-link" href="#" title="Inicio">Inicio</a>
+        </li>
+
+        <li class="nav-bar-class-link menu__item menu__item--show">
+          <a class="menu-link" href="#" title="Niveles Educativos">Niveles Educativos <img src="assets/icons/arrow.svg"
+              class="menu__arrow"></a>
+          <ul class="menu__nesting">
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">Nivel Inicial</a>
+            </li>
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">Nivel Primario</a>
+            </li>
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">Nivel Medio</a>
+            </li>
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">Nivel Superior</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-bar-class-link menu__item menu__item--show">
+          <a class="menu-link" href="#" title="Aranceles">Aranceles <img src="assets/icons/arrow.svg"
+              class="menu__arrow"></a>
+
+          <ul class="menu__nesting">
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">Pago de Aranceles</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-bar-class-link menu__item menu__item--show">
+          <a  class="menu-link" href="#">Institucional <img src="assets/icons/arrow.svg" class="menu__arrow"></a>
+          <ul class="menu__nesting">
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">San Leonardo Murialdo</a>
+            </li>
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">Misión Salta</a>
+            </li>
+            <li class="menu__inside">
+              <a href="#" class="menu-link menu__link--inside">Ideario</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav-bar-class-link menu__item">
+          <a class="menu-link" href="#" title="Noticias">Noticias</a>
+        </li>
+        
+        <li class="nav-bar-class-link menu__item">
+          <a class="menu-link" href="#" title="Contacto">Contacto</a>
+        </li>
       </ul>
     </nav>
     <a class="nav-bar-class-search" href="#" title="Buscador"><img class="icon-search"
@@ -246,4 +298,5 @@
     </div>
   </footer>
 </body>
+
 </html>
