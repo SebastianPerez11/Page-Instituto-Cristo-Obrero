@@ -563,7 +563,9 @@ body {
   }
 
   .btn-ca {
-    padding: 1rem 3.4rem;
+    color: var(--white-bg);
+    background-color: var(--yellow-600);
+    padding: 1.2rem 3.4rem;
     font-size: 2rem;
   }
 }
@@ -1158,5 +1160,3 @@ body {
     font-size: 2rem;
   }
 }
-
-/* Notas: Modificar metodologias y estilos */
