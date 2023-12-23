@@ -223,7 +223,7 @@ body {
 
 .nav-bar-menu-link-white {
   text-decoration: none;
-  padding: 3rem;
+  padding: 3rem 2.6rem;
   font-size: 1.85rem;
   ;
   display: flex;
@@ -1067,6 +1067,128 @@ body {
     width: 100%;
     justify-content: center;
   }
+}
+
+/* News Section */
+
+.news-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 90rem;
+  max-height: 100vh;
+  padding: 14.4rem 5.5rem;
+}
+
+.news-container-main {
+  width: 100%;
+  max-width: 144rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8rem;
+}
+
+.news-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(min(40rem, 100%), 1fr));
+  gap: 2rem;
+}
+
+.news-container-text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-title-h1 {
+  font-size: 5rem;
+  line-height: 5rem;
+  text-wrap: wrap;
+  font-weight: 500;
+  text-align: center;
+  color: var(--blue-900);
+}
+
+.news-new {
+  width: 100%;
+  height: 38rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.news-new-figure {
+  width: 100%;
+  height: 60%;
+}
+
+.news-new-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.news-new-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.news-new-header-title {
+  font-size: 2.4rem;
+  width: 25ch;
+  font-weight: 600;
+}
+
+.news-new-footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.news-new-footer-time,
+.news-new-footer-tag {
+  font-size: 1.8rem;
+  background-color: var(--blue-400);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  padding: .5rem 1rem;
+  color: var(--white-bg);
+}
+
+.news-new-footer-contain-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-new-footer-icon {
+  width: 100%;
+  height: 100%;
 }
 
 /* Footer */
