@@ -439,11 +439,11 @@ body {
 }
 
 .container-net-link-icon:hover {
-  transform: translateY(-1rem);
-  -webkit-transform: translateY(-1rem);
-  -moz-transform: translateY(-1rem);
-  -ms-transform: translateY(-1rem);
-  -o-transform: translateY(-1rem);
+  transform: translateY(-.5rem);
+  -webkit-transform: translateY(-.5rem);
+  -moz-transform: translateY(-.5rem);
+  -ms-transform: translateY(-.5rem);
+  -o-transform: translateY(-.5rem);
 }
 
 @media (max-width:780px) {
@@ -459,10 +459,10 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 90rem;
+  height: 85rem;
   max-height: 100vh;
   padding: 14.4rem 5.5rem;
-  background-image: url(assets/img/background.jpg);
+  background-image: url(/assets/img/background.jpg);
   background-position: bottom;
   background-size: cover;
 }
@@ -578,7 +578,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 90rem;
+  height: 85rem;
   max-height: 100vh;
   padding: 14.4rem 5.5rem;
 }
@@ -653,7 +653,11 @@ body {
 }
 
 .inscription-card:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-.8rem);
+  -webkit-transform: translateY(-.8rem);
+  -moz-transform: translateY(-.8rem);
+  -ms-transform: translateY(-.8rem);
+  -o-transform: translateY(-.8rem);
 }
 
 .inscription-card span {
@@ -767,7 +771,7 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 90rem;
+  height: 85rem;
   max-height: 100vh;
   padding: 14.4rem 5.5rem;
 }
@@ -784,10 +788,9 @@ body {
 
 .call-container-title {
   width: 100%;
-
 }
 
-.call-container-title h3 {
+.call-container-title-h3 {
   font-size: 5rem;
   line-height: 5rem;
   text-wrap: wrap;
@@ -818,6 +821,7 @@ body {
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
   padding: 3rem;
+  gap: .5rem;
   display: flex;
   flex-direction: column;
   align-items: start;
@@ -901,7 +905,7 @@ body {
     gap: 5rem;
   }
 
-  .call-container-title h3 {
+  .call-container-title-h3 {
     font-size: 3.4rem;
     line-height: 3.4rem;
     text-wrap: wrap;
@@ -959,7 +963,7 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 90rem;
+  height: 65rem;
   max-height: 100vh;
   padding: 14.4rem 5.5rem;
 }
@@ -1010,6 +1014,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 2rem;
+  line-height: 2.5rem;
   color: var(--blue-50);
   transition: 0.6s background, color;
   -webkit-transition: 0.6s background, color;
@@ -1077,8 +1082,6 @@ body {
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  height: 90rem;
-  max-height: 100vh;
   padding: 14.4rem 5.5rem;
 }
 
@@ -1095,7 +1098,7 @@ body {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(auto-fit, minmax(min(40rem, 100%), 1fr));
-  gap: 2rem;
+  gap: 2.5rem;
 }
 
 .news-container-text {
@@ -1155,27 +1158,34 @@ body {
   font-size: 2.4rem;
   width: 25ch;
   font-weight: 600;
+  color: var(--blue-900);
 }
 
 .news-new-footer {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: start;
-  gap: 2rem;
+  justify-content: space-between;
 }
 
+.news-new-footer-contain-tags{
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
 .news-new-footer-time,
 .news-new-footer-tag {
   font-size: 1.8rem;
   background-color: var(--blue-400);
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
-  padding: .5rem 1rem;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  padding: .8rem 1rem;
+  line-height: 1.8rem;
   color: var(--white-bg);
+  font-weight: 600;
 }
 
 .news-new-footer-contain-icon {
@@ -1189,6 +1199,22 @@ body {
 .news-new-footer-icon {
   width: 100%;
   height: 100%;
+}
+
+
+@media (max-width:780px) {
+  .news-section {
+    padding: 3.5rem 1.2rem;
+  }
+
+  .news-title-h1{
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+    text-wrap: wrap;
+    font-weight: 500;
+    text-align: center;
+    color: var(--blue-900);
+  }
 }
 
 /* Footer */
@@ -1271,7 +1297,6 @@ body {
   }
 
   .footer-container {
-    max-width: 144rem;
     display: flex;
     gap: 8rem;
     flex-wrap: wrap;
