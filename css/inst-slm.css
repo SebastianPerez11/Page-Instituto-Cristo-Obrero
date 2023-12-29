@@ -1,0 +1,55 @@
+
+.inst-slm-section{
+    width: 100%;
+    height: 100%;
+    padding: 14.4rem 5.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inst-slm-container{
+    max-width: 144rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.inst-slm-contain-title{
+    width: 100%;
+    text-align: start;
+}
+
+.inst-slm-title{
+    font-size: 5.5rem;
+    color: var(--yellow-600);
+}
+
+.inst-slm-contain{
+    display: flex;
+    gap: 2rem;
+}
+
+.inst-slm-contain-img{
+   width: 22rem;
+   height: 32.7rem;
+   object-fit: cover;
+}
+
+.inst-slm-contain-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.inst-slm-contain-text-title{
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--blue-800);
+}
+
+.inst-slm-contain-p{
+    font-size: 1.7rem;
+}
+
