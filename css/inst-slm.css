@@ -2,7 +2,7 @@
 .inst-slm-section{
     width: 100%;
     height: 100%;
-    padding: 14.4rem 5.5rem;
+    padding: 12.4rem 5.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,6 +23,7 @@
 
 .inst-slm-title{
     font-size: 5.5rem;
+    line-height: 5.5rem;
     color: var(--yellow-600);
 }
 
@@ -35,6 +36,11 @@
    width: 22rem;
    height: 32.7rem;
    object-fit: cover;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
 }
 
 .inst-slm-contain-text{
@@ -45,7 +51,7 @@
 
 .inst-slm-contain-text-title{
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: var(--blue-800);
 }
 
