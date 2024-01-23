@@ -384,6 +384,18 @@ body {
   }
 }
 
+@media (width <= 1024px){
+  .nav-bar-menu-link-white {
+    text-decoration: none;
+    padding: 3rem 1.2rem;
+    font-size: 1.8rem;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    color: var(--white-bg);
+  }
+}
+
 /* Hero Section */
 
 .hero-section {
@@ -1380,6 +1392,8 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
 .footer-container-banner {
@@ -1456,6 +1470,14 @@ body {
 
 @media (width <= 425px) {
 
+  
+  .footer-container-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  align-self: flex-start;
+  } 
   .footer {
     padding: 3.5rem 1.2rem;
   }
