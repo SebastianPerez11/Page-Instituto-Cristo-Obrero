@@ -1,4 +1,4 @@
-# Landing-Page-Terciario
+# Page-Instituto-Cristo-Obrero
 
 Landing page del Instituto Cristo Obrero es un instituto fundado en 1936, de gestión privada, mixto, de jornada simple y con orientación en valores de la religión Católica, disponiendo de infraestructura religiosa propia.
 
