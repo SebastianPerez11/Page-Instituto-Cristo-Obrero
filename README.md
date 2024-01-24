@@ -15,7 +15,7 @@ Se desarrollo una página web dónde se encuentra la información más important
 - Google Fonts
 
 ### Deploy
-[https://mision-salta-landing-dev.vercel.app/](https://landing-page-terciario.vercel.app/)
+https://instituto-cristo-obrero.vercel.app/
 
 Contacto de Desarrollador
 - Sebastián Perez
