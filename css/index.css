@@ -1221,6 +1221,15 @@ body {
   }
 }
 
+@media (width <= 425px){
+  .extra-card-title {
+    font-size: 2.2rem;
+    text-align: center;
+    color: var(--white-bg);
+    flex-grow: 1;
+  }
+}
+
 /* News Section */
 
 .news-section {
