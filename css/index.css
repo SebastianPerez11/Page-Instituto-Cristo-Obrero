@@ -594,7 +594,7 @@ body {
     justify-content: center;
     gap: 6rem;
   }
-  
+
   .title-hero-h1 {
     font-size: 4.8rem;
     line-height: 4.8rem;
@@ -615,14 +615,14 @@ body {
 
   .container-hero-il {
     width: 100%;
-}
+  }
 
-  .container-hero-il-img{
+  .container-hero-il-img {
     width: 60rem;
   }
 }
 
-@media (width <= 426px) {
+@media (width <=430px) {
   .hero-section {
     height: 100%;
   }
@@ -640,7 +640,7 @@ body {
   }
 
   .container-hero-links {
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
   }
 
@@ -649,12 +649,12 @@ body {
   }
 }
 
-@media (width <= 376px) {
+@media (width <=376px) {
   .hero-section {
     padding: 6rem 1.2rem;
     max-height: unset;
   }
-  
+
   .title-hero-h1 {
     font-size: 4.2rem;
     line-height: 4.2rem;
@@ -667,6 +667,7 @@ body {
   .p-hero {
     font-size: 2.2rem;
   }
+
   .container-hero-il-img {
     object-fit: cover;
     width: 36rem;
@@ -721,14 +722,14 @@ body {
 }
 
 .inscription-card {
-  width: 42.5rem;
-  height: 42.5rem;
+  width: 40rem;
+  height: 40rem;
   cursor: pointer;
   display: flex;
   border-radius: 1rem;
   align-items: center;
   flex-direction: column;
-  padding: 6rem;
+  padding: 2.5rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
@@ -813,7 +814,7 @@ body {
   color: var(--yellow-600);
 }
 
-@media (max-width: 1385px) {
+@media (width <=1385px) {
   .inscription-section {
     width: 100%;
     height: 100%;
@@ -826,18 +827,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     gap: 4rem;
   }
 }
 
-@media (width <=780px) {
+@media (width <=769px) {
 
   .inscription-section {
     width: 100%;
     height: 100%;
     max-height: unset;
-    padding: 7.4rem 1.2rem;
+    padding: 7.4rem 5rem;
   }
 
   .inscription-container {
@@ -847,28 +847,29 @@ body {
   .inscription-title-h1 {
     font-size: 3.4rem;
     line-height: 3.4rem;
-    text-align: center;
+    text-align: start;
   }
 
   .inscription-container-cards {
     width: 100%;
     height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    flex-wrap: wrap;
   }
 
   .inscription-card {
     width: 100%;
-    /* width: 32rem; */
     height: 30rem;
-    padding: 3rem;
+    padding: 4rem;
   }
 }
 
 @media (width <=425px) {
+  .inscription-section {
+    width: 100%;
+    height: 100%;
+    max-height: unset;
+    padding: 6rem 1.2rem;
+  }
+
   .inscription-title-h1 {
     font-size: 2.9rem;
     line-height: 2.9rem;
@@ -935,7 +936,7 @@ body {
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  padding: 3rem;
+  padding: 4rem;
   gap: .5rem;
   display: flex;
   flex-direction: column;
@@ -957,22 +958,28 @@ body {
 
 .container-call-il {
   display: flex;
+  width: 50%;
   align-items: center;
+  justify-content: end;
 }
 
 .container-call-il-img {
-  width: 50rem;
-  height: 50rem;
+  width: 48rem;
+  height: 48rem;
   object-fit: cover;
 }
 
 @media (width <=1440px) {
+  .call-section {
+    height: 100%;
+  }
+
   .container-call-il-img {
     width: 46rem;
   }
 }
 
-@media (max-width: 1024px) {
+@media (width <=1024px) {
   .call-section {
     display: flex;
     align-items: center;
@@ -982,9 +989,15 @@ body {
     max-height: unset;
     padding: 14.4rem 5.5rem;
   }
+
+  .container-call-il-img {
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+  }
 }
 
-@media (max-width: 910px) {
+@media (width <=769px) {
   .call-section {
     display: flex;
     align-items: center;
@@ -992,7 +1005,7 @@ body {
     width: 100%;
     height: 100%;
     max-height: unset;
-    padding: 7.4rem 1.2rem;
+    padding: 7.4rem 5rem;
   }
 
   .call-container-content {
