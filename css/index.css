@@ -1012,16 +1012,12 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    gap: 5rem;
+    gap: 4rem;
   }
 
   .call-container-title-h3 {
     font-size: 3.4rem;
     line-height: 3.4rem;
-    text-wrap: wrap;
-    font-weight: 500;
-    text-align: center;
-    color: var(--blue-900);
   }
 
   .call-container-cards {
@@ -1030,7 +1026,7 @@ body {
     width: 100%;
     flex-wrap: wrap;
     align-self: center;
-    gap: 3rem;
+    gap: 4rem;
   }
 
   .call-card {
@@ -1052,9 +1048,31 @@ body {
     font-weight: 200;
     font-size: 1.5rem;
   }
+
+  .container-call-il {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-call-il-img {
+    width: 48rem;
+    height: 48rem;
+    object-fit: cover;
+  }
 }
 
-@media (width <=425px) {
+@media (width <=426px) {
+  .call-section {
+    padding: 7.4rem 1.2rem;
+  }
+
+  .call-card {
+   height: 20rem;
+   justify-content: center;
+  }
+
   .container-call-il-img {
     display: none;
   }
@@ -1062,10 +1080,6 @@ body {
   .call-container-title-h3 {
     font-size: 2.9rem;
     line-height: 2.9rem;
-    text-wrap: wrap;
-    font-weight: 500;
-    text-align: start;
-    color: var(--blue-900);
   }
 }
 
