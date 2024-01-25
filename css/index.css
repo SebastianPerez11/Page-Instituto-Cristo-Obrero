@@ -1507,3 +1507,19 @@ body {
     font-size: 1.7rem;
   }
 }
+
+.section{
+  opacity: 0;
+  scale: .8;
+  position: relative;
+}
+
+.show {
+  transition: all .7s;
+  opacity: 1;
+  scale: 1;
+  -webkit-transition: all .7s;
+  -moz-transition: all .7s;
+  -ms-transition: all .7s;
+  -o-transition: all .7s;
+}
