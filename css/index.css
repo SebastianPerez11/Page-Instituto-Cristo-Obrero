@@ -136,7 +136,7 @@ body {
   --yellow-300: #faf94a;
   --yellow-400: #f6ec1b;
   --yellow-500: #e1cf05;
-  --yellow-600: #f7c707;
+  --yellow-600: #ffb701;
   --yellow-700: #9e790a;
   --yellow-800: #835f10;
   --yellow-900: #6f4d14;
@@ -483,21 +483,26 @@ body {
 
 .btn-ca {
   text-align: center;
-  background-color: var(--blue-900);
-  padding: 1.2rem 5rem;
+  background: var(--blue-900);
+  padding: 1rem 5rem;
   font-weight: 500;
   font-size: 2.2rem;
-  border-radius: 10rem;
-  color: var(--blue-50);
-  -webkit-border-radius: 10rem;
-  -moz-border-radius: 10rem;
-  -ms-border-radius: 10rem;
-  -o-border-radius: 10rem;
-  transition: 0.6s all;
-  -webkit-transition: 0.6s all;
-  -moz-transition: 0.6s all;
-  -ms-transition: 0.6s all;
-  -o-transition: 0.6s all;
+  border-radius:1.2rem;
+  color: var(--white-bg);
+  -webkit-border-radius:1.2rem;
+  -moz-border-radius:1.2rem;
+  -ms-border-radius:1.2rem;
+  -o-border-radius:1.2rem;
+  transition: 0.5s filter;
+  -webkit-transition: 0.5s filter;
+  -moz-transition: 0.5s filter;
+  -ms-transition: 0.5s filter;
+  -o-transition: 0.5s filter;
+}
+
+.btn-ca:hover {
+    filter: brightness(1.4);
+    -webkit-filter: brightness(1.4);
 }
 
 .container-hero-il {
@@ -513,8 +518,8 @@ body {
   width: 100%;
   animation: float 3s infinite linear;
   -webkit-animation: float 3s infinite linear;
-  filter: drop-shadow(0px 8px 20px var(--yellow-600));
-  -webkit-filter: drop-shadow(0px 8px 20px var(--yellow-600));
+  filter: drop-shadow(0px 15px 15px #a09a0475);
+  -webkit-filter: drop-shadow(0px 8px 15px #f9f00075);
 }
 
 @keyframes float {
