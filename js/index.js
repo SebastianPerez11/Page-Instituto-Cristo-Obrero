@@ -7,7 +7,7 @@ const showSections = elements => {
 }
 
 const observer = new IntersectionObserver(showSections, {
-    threshold: 0.30
+    threshold: 0.35
 }
 )
 
