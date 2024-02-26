@@ -1234,6 +1234,7 @@ body {
 
   .extra-container-cards {
     justify-content: center;
+    flex-wrap: wrap;
   }
 
   .extra-card {
